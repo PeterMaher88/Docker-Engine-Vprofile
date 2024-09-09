@@ -1,5 +1,5 @@
 FROM mysql:8.0.33
-LABEL "Project"="Vprofile"
+LABEL "Project"="Docker-Engine-Vprofile"
 LABEL "Authour"="PeterMaher88"
 
 ENV MYSQL_ROOT_PASSWORD="vprodbpass"

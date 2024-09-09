@@ -1,5 +1,5 @@
 FROM nginx 
-LABEL "Project"="Vprofile"
+LABEL "Project"="Docker-Engine-Vprofile"
 LABEL "Authour"="PeterMaher88"
 
 RUN rm -rf /etc/nginx/conf.d/default.conf
