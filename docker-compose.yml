@@ -37,7 +37,7 @@ services:
 
   vproweb:
     build: 
-      context: ./Docker-files/appweb
+      context: ./Docker-files/web
     image: peterabdelmalek/containerize-project-vprofileweb
     container_name: vproweb
     ports:
